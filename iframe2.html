@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            height: 100px;
+            background-color: aquamarine;
+        }
+
+        section {
+            width: 100%;
+            height: calc(100vh - 100px);
+            background-color: burlywood;
+        }
+
+        iframe {
+            height: 100%;
+            width: 100%;
+        }
+
+        .iframe {
+            height: calc(100vh - 105px);
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <iframe src="./iframe2header.html" name="header" frameborder="0"></iframe>
+    </header>
+    <section>
+        <iframe class="iframe" src="./iframe2sub.html" name="content" frameborder="0"></iframe>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Div Example</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Big+Shoulders+Inline+Text:wght@100..900"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            overflow: hidden;
+        }
+
+        aside {
+            background-color: aqua;
+            height: 100vh;
+        }
+
+        iframe {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <aside>
+        <iframe src="./iframe1.html" frameborder="0">
+        </iframe>
+    </aside>
+    <main>
+        <iframe src="./iframe2.html" frameborder="0"></iframe>
+    </main>
+</body>
+
+</html>
